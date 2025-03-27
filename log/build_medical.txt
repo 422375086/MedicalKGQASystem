@@ -1,0 +1,101 @@
+2020-03-01 00:05:19,426:INFO:  - graph delete finished.
+2020-03-01 00:05:21,042:INFO:  - Disease nodes
+2020-03-01 00:09:37,662:INFO:  - Disease count : 8792
+2020-03-01 00:09:37,662:INFO:  - Symptom nodes
+2020-03-01 00:12:50,081:INFO:  - Symptom count : 6556
+2020-03-01 00:12:50,081:INFO:  - Department nodes
+2020-03-01 00:12:51,518:INFO:  - Department count : 54
+2020-03-01 00:12:51,519:INFO:  - Check nodes
+2020-03-01 00:14:23,771:INFO:  - Check count : 3342
+2020-03-01 00:14:23,772:INFO:  - Drug nodes
+2020-03-01 00:15:02,462:INFO:  - Drug count : 1204
+2020-03-01 00:15:02,463:INFO:  - Food nodes
+2020-03-01 00:17:15,994:INFO:  - Food count : 4854
+2020-03-01 00:17:16,969:INFO:  - Department ---- Department
+2020-03-01 00:17:16,969:INFO:  - rel_type: belongs_to
+2020-03-01 00:17:16,969:INFO:  - Original relations number : 37
+2020-03-01 00:17:18,063:INFO:  - 37 relations have been created successfully.
+2020-03-01 00:17:18,083:INFO:  - Disease ---- Food
+2020-03-01 00:17:18,083:INFO:  - rel_type: good_food
+2020-03-01 00:17:18,084:INFO:  - Original relations number : 34221
+2020-03-01 00:42:43,680:INFO:  - 34221 relations have been created successfully.
+2020-03-01 00:42:43,699:INFO:  - Disease ---- Food
+2020-03-01 00:42:43,700:INFO:  - rel_type: avoid_food
+2020-03-01 00:42:43,700:INFO:  - Original relations number : 34215
+2020-03-01 01:07:54,877:INFO:  - 34215 relations have been created successfully.
+2020-03-01 01:07:54,905:INFO:  - Disease ---- Food
+2020-03-01 01:07:54,905:INFO:  - rel_type: recommand_recipes
+2020-03-01 01:07:54,905:INFO:  - Original relations number : 39663
+2020-03-01 01:36:41,351:INFO:  - 39663 relations have been created successfully.
+2020-03-01 01:36:41,367:INFO:  - Disease ---- Drug
+2020-03-01 01:36:41,368:INFO:  - rel_type: common_drug
+2020-03-01 01:36:41,368:INFO:  - Original relations number : 13477
+2020-03-01 01:46:23,733:INFO:  - 13477 relations have been created successfully.
+2020-03-01 01:46:23,750:INFO:  - Disease ---- Check
+2020-03-01 01:46:23,750:INFO:  - rel_type: check_item
+2020-03-01 01:46:23,750:INFO:  - Original relations number : 39098
+2020-03-01 02:05:20,347:INFO: SyntaxError: Invalid input 'ÔØ': expected '\', ''', '"', 'b', 'f', 'n', 'r', 't', UTF16 or UTF32 (line 1, column 68 (offset: 67))
+"match(p:Disease),(q:Check) where p.name="ÐÄÑª¹Ü¼²²¡" and q.name="ÔØÖ¬µ°°×A1\ÔØÖ¬µ°°×B±ÈÖµ" create (p)-[rel:check_item{name:"¼ì²éÏîÄ¿"}]->(q)"
+                                                                    ^
+2020-03-01 02:14:33,451:INFO:  - 39097 relations have been created successfully.
+2020-03-01 02:14:33,476:INFO:  - Disease ---- Symptom
+2020-03-01 02:14:33,476:INFO:  - rel_type: has_symptom
+2020-03-01 02:14:33,476:INFO:  - Original relations number : 58398
+2020-03-01 03:00:24,004:INFO:  - 58398 relations have been created successfully.
+2020-03-01 03:00:24,016:INFO:  - Disease ---- Disease
+2020-03-01 03:00:24,016:INFO:  - rel_type: has_complication
+2020-03-01 03:00:24,016:INFO:  - Original relations number : 19151
+2020-03-01 03:17:41,566:INFO:  - 19151 relations have been created successfully.
+2020-03-01 03:17:41,572:INFO:  - Disease ---- Department
+2020-03-01 03:17:41,573:INFO:  - rel_type: belongs_to
+2020-03-01 03:17:41,573:INFO:  - Original relations number : 8747
+2020-03-01 03:23:50,547:INFO:  - 8747 relations have been created successfully.
+2024-05-30 21:41:36,299:INFO:  - graph delete finished.
+2024-05-30 21:41:36,987:INFO:  - Disease nodes
+2024-05-30 21:42:36,831:INFO:  - Disease count : 8792
+2024-05-30 21:42:36,831:INFO:  - Symptom nodes
+2024-05-30 21:43:06,292:INFO:  - Symptom count : 6556
+2024-05-30 21:43:06,292:INFO:  - Department nodes
+2024-05-30 21:43:06,564:INFO:  - Department count : 54
+2024-05-30 21:43:06,564:INFO:  - Check nodes
+2024-05-30 21:43:21,451:INFO:  - Check count : 3342
+2024-05-30 21:43:21,451:INFO:  - Drug nodes
+2024-05-30 21:43:27,162:INFO:  - Drug count : 1204
+2024-05-30 21:43:27,162:INFO:  - Food nodes
+2024-05-30 21:43:49,724:INFO:  - Food count : 4854
+2024-05-30 21:43:50,401:INFO:  - Department ---- Department
+2024-05-30 21:43:50,402:INFO:  - rel_type: belongs_to
+2024-05-30 21:43:50,402:INFO:  - Original relations number : 37
+2024-05-30 21:43:51,178:INFO:  - 37 relations have been created successfully.
+2024-05-30 21:43:51,189:INFO:  - Disease ---- Food
+2024-05-30 21:43:51,190:INFO:  - rel_type: good_food
+2024-05-30 21:43:51,190:INFO:  - Original relations number : 34221
+2024-05-30 21:54:11,653:INFO:  - 34221 relations have been created successfully.
+2024-05-30 21:54:11,667:INFO:  - Disease ---- Food
+2024-05-30 21:54:11,667:INFO:  - rel_type: avoid_food
+2024-05-30 21:54:11,667:INFO:  - Original relations number : 34215
+2024-05-30 22:04:36,253:INFO:  - 34215 relations have been created successfully.
+2024-05-30 22:04:36,267:INFO:  - Disease ---- Food
+2024-05-30 22:04:36,267:INFO:  - rel_type: recommand_recipes
+2024-05-30 22:04:36,267:INFO:  - Original relations number : 39663
+2024-05-30 22:16:09,933:INFO:  - 39663 relations have been created successfully.
+2024-05-30 22:16:09,941:INFO:  - Disease ---- Drug
+2024-05-30 22:16:09,941:INFO:  - rel_type: common_drug
+2024-05-30 22:16:09,941:INFO:  - Original relations number : 13477
+2024-05-30 22:19:45,085:INFO:  - 13477 relations have been created successfully.
+2024-05-30 22:19:45,100:INFO:  - Disease ---- Check
+2024-05-30 22:19:45,100:INFO:  - rel_type: check_item
+2024-05-30 22:19:45,100:INFO:  - Original relations number : 39098
+2024-05-30 22:30:53,401:INFO:  - 39098 relations have been created successfully.
+2024-05-30 22:30:53,420:INFO:  - Disease ---- Symptom
+2024-05-30 22:30:53,420:INFO:  - rel_type: has_symptom
+2024-05-30 22:30:53,420:INFO:  - Original relations number : 58398
+2024-05-30 22:48:55,140:INFO:  - 58398 relations have been created successfully.
+2024-05-30 22:48:55,151:INFO:  - Disease ---- Disease
+2024-05-30 22:48:55,151:INFO:  - rel_type: has_complication
+2024-05-30 22:48:55,151:INFO:  - Original relations number : 19151
+2024-05-30 22:56:18,544:INFO:  - 19151 relations have been created successfully.
+2024-05-30 22:56:18,551:INFO:  - Disease ---- Department
+2024-05-30 22:56:18,551:INFO:  - rel_type: belongs_to
+2024-05-30 22:56:18,551:INFO:  - Original relations number : 8747
+2024-05-30 22:58:31,568:INFO:  - 8747 relations have been created successfully.
